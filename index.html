@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
+  <title>Shiyuan Liu - Homepage</title>
+  <meta name="description" content="Shiyuan Liu's academic homepage. PhD student at University of Technology Sydney (UTS).">
+  <meta name="keywords" content="Shiyuan Liu, UTS, data management, machine learning, academic homepage">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body.theme-luka .site-name,
+    body.theme-luka {
+      font-family: 'Inter', 'Noto Sans SC', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    }
+  </style>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
@@ -37,24 +43,25 @@
     <header class="sidebar">
       <div class="profile-card">
         <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
+          <img src="assets/img/avatar.jpg" alt="Shiyuan Liu" style="object-fit: cover; object-position: 20% center;">
         </a>
 
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
+        <h1 class="site-name">Shiyuan Liu</h1>
+        <p class="site-email">shiyuan.liu-1@student.uts.edu.au</p>
 
         <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
+          <a href="mailto:shiyuan.liu-1@student.uts.edu.au" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=OuoLmakAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://orcid.org/0000-0003-2424-8337" title="ORCID"><i class="ai ai-orcid"></i></a>
+          <a href="https://github.com/shiyuanliu-uts" title="GitHub"><i class="fa-brands fa-github"></i></a>
         </div>
 
         <div class="visitor-card">
           <div class="visitor-card-title">Visitor Map</div>
           <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
+            <a href="https://clustrmaps.com/site/1c77j" title="Visit tracker">
+              <img src="//www.clustrmaps.com/map_v2.png?d=YOUR_CLUSTRMAPS_ID&cl=ffffff" alt="Visitor map" />
+            </a>
           </div>
         </div>
       </div>
@@ -64,9 +71,8 @@
       <div class="section" id="about">
         <h2 class="section-title">About Me</h2>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>Hello! I am <strong>Shiyuan Liu</strong>, a PhD student at the <a href="https://www.uts.edu.au/" target="_blank" rel="noopener">University of Technology Sydney (UTS)</a>, supervised by <a href="https://profiles.uts.edu.au/Ying.Zhang" target="_blank" rel="noopener">Prof. Ying Zhang</a>, <a href="https://profiles.uts.edu.au/Lu.Qin" target="_blank" rel="noopener">Prof. Lu Qin</a>, and <a href="https://jianwei-cse.github.io/" target="_blank" rel="noopener">Dr. Jianwei Wang</a>.</p>
+          <p>My research interests include <strong>Data Management</strong> and <strong>Artificial Intelligence</strong>.</p>
         </div>
       </div>
 
@@ -75,51 +81,23 @@
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/uts.png" alt="UTS logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
+                <p class="exp-title"><strong>University of Technology Sydney (UTS)</strong></p>
+                <p class="exp-detail">Ph.D. in Computer Science</p>
+                <p class="exp-period">Aug 2024 - Present</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="section-body">
-          <div class="card timeline-item">
+          <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/zjsu.png" alt="ZJSU logo" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
+                <p class="exp-title"><strong>Zhejiang Gongshang University (ZJSU)</strong></p>
+                <p class="exp-detail">B.Eng. in Computer Science and Technology (2017 - 2021)</p>
+                <p class="exp-detail">M.Eng. in Information and Communication Engineering (2021 - 2024)</p>
               </div>
             </div>
-          </div>
-
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
           </div>
         </div>
       </div>
@@ -132,11 +110,23 @@
               <li>
                 <div class="pub-row">
                   <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
+                    <div class="title">GEEK-Explainer: An Efficient Interpretation Method for Graph Neural Networks in SDN</div>
+                    <div class="author"><strong>Shiyuan Liu</strong>, Chuanhuang Li, Chao Chen, Bo Ma, Zebin Chen, Xiaoyang Wang, Ying Zhang</div>
+                    <div class="periodical"><em><strong>IEEE Transactions on Cognitive Communications and Networking (TCCN)</strong>, 2026</em></div>
                     <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
+                      <a href="https://doi.org/10.1109/TCCN.2025.3586942" target="_blank">Paper</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="pub-row">
+                  <div class="pub-content">
+                    <div class="title">An Efficient Ray-Tracing Framework for Urban Scenarios Powered by Heterogeneous Graph Neural Networks</div>
+                    <div class="author"><strong>Shiyuan Liu</strong>, Yujie Feng, Songjiang Yang, Bo Ma, Chuanhuang Li</div>
+                    <div class="periodical"><em><strong>IEEE Antennas and Wireless Propagation Letters (AWPL)</strong>, 2025</em></div>
+                    <div class="links">
+                      <a href="https://doi.org/10.1109/LAWP.2025.3576376" target="_blank">Paper</a>
                     </div>
                   </div>
                 </div>
@@ -145,29 +135,11 @@
           </div>
         </div>
       </div>
-
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
-            </div>
-            <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <footer class="site-footer">
       <p>
-        &copy; 2026 Your Name. All rights reserved.
-        <br>
-        <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
+        &copy; 2026 Shiyuan Liu. All rights reserved.
       </p>
     </footer>
   </div>
