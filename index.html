@@ -9,180 +9,95 @@
   <meta name="keywords" content="Shiyuan Liu, UTS, data management, machine learning, academic homepage">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦘</text></svg>" type="image/svg+xml">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    body.theme-luka .site-name,
-    body.theme-luka {
-      font-family: 'Inter', 'Noto Sans SC', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-    }
-  </style>
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="assets/css/font_sans_serif.css">
-  <link rel="stylesheet" href="assets/css/theme-luka.css">
+  <link rel="stylesheet" href="assets/css/theme-academic.css">
 </head>
-<body class="theme-luka">
-  <nav class="top-nav">
-    <div class="nav-container">
-      <div class="nav-left">
-        <a href="./">Home</a>
-      </div>
-      <div class="nav-right">
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
-          <i class="fa-solid fa-moon"></i>
-        </button>
-      </div>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a class="masthead-title" href="./">Shiyuan Liu</a>
+      <nav class="masthead-nav">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <div class="wrapper">
-    <header class="sidebar">
-      <div class="profile-card">
-        <a class="image avatar">
-          <img src="assets/img/avatar.jpg" alt="Shiyuan Liu" style="object-fit: cover; object-position: 20% center;">
-        </a>
-
-        <h1 class="site-name">Shiyuan Liu</h1>
-        <p class="site-email">shiyuan.liu-1@student.uts.edu.au</p>
-
-        <div class="social-icons">
-          <a href="mailto:shiyuan.liu-1@student.uts.edu.au" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/citations?user=OuoLmakAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://orcid.org/0000-0003-2424-8337" title="ORCID"><i class="ai ai-orcid"></i></a>
-          <a href="https://github.com/shiyuanliu-uts" title="GitHub"><i class="fa-brands fa-github"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ziGyC990e9d9ekLkUmrBTB6MsAZ7GL3agAdtZEOWgz0&cl=ffffff&w=a"></script>
-          </div>
-        </div>
+  <div class="page-wrapper">
+    <aside class="author-sidebar">
+      <img class="author-avatar" src="assets/img/avatar.jpg" alt="Shiyuan Liu" style="object-fit: cover; object-position: 20% center;">
+      <h1 class="author-name">Shiyuan Liu</h1>
+      <p class="author-bio">PhD student at University of Technology Sydney</p>
+      <ul class="author-links">
+        <li><i class="fa-solid fa-location-dot"></i>Sydney, Australia</li>
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:shiyuan.liu-1@student.uts.edu.au">Email</a></li>
+        <li><i class="ai ai-google-scholar"></i><a href="https://scholar.google.com/citations?user=OuoLmakAAAAJ">Google Scholar</a></li>
+        <li><i class="ai ai-orcid"></i><a href="https://orcid.org/0000-0003-2424-8337">ORCID</a></li>
+        <li><i class="fa-brands fa-github"></i><a href="https://github.com/shiyuanliu-uts">GitHub</a></li>
+      </ul>
+      <div class="visitor-map">
+        <div class="visitor-map-title">Visitor Map</div>
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=ziGyC990e9d9ekLkUmrBTB6MsAZ7GL3agAdtZEOWgz0&cl=ffffff&w=a"></script>
       </div>
-    </header>
+    </aside>
 
-    <section class="content">
-      <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
-        <div class="section-body">
-          <p>Hello! I am <strong>Shiyuan Liu</strong>, a PhD student at the <a href="https://www.uts.edu.au/" target="_blank" rel="noopener">University of Technology Sydney (UTS)</a>, supervised by <a href="https://profiles.uts.edu.au/Ying.Zhang" target="_blank" rel="noopener">Prof. Ying Zhang</a>, <a href="https://profiles.uts.edu.au/Lu.Qin" target="_blank" rel="noopener">Prof. Lu Qin</a>, and <a href="https://jianwei-cse.github.io/" target="_blank" rel="noopener">Dr. Jianwei Wang</a>.</p>
-          <p>My research interests include <strong>Data Management</strong> and <strong>Artificial Intelligence</strong>.</p>
-        </div>
-      </div>
+    <main class="main-content">
+      <section id="about">
+        <h1>About Me</h1>
+        <p>Shiyuan Liu is currently a PhD student at the <a href="https://www.uts.edu.au/" target="_blank" rel="noopener">University of Technology Sydney (UTS)</a>, supervised by <a href="https://profiles.uts.edu.au/Ying.Zhang" target="_blank" rel="noopener">Prof. Ying Zhang</a>, <a href="https://profiles.uts.edu.au/Lu.Qin" target="_blank" rel="noopener">Prof. Lu Qin</a>, and <a href="https://jianwei-cse.github.io/" target="_blank" rel="noopener">Dr. Jianwei Wang</a>.</p>
+        <p>His research interests include <strong>Data Management</strong> and <strong>Artificial Intelligence</strong>.</p>
 
-      <div class="section" id="education">
-        <h2 class="section-title">Education</h2>
-        <div class="section-body">
-          <div class="card">
-            <div class="experience-item">
-              <img src="assets/img/uts.png" alt="UTS logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>University of Technology Sydney (UTS)</strong></p>
-                <p class="exp-detail">Ph.D. in Computer Science</p>
-                <p class="exp-period">2024 - Present</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="experience-item">
-              <img src="assets/img/zjsu.png" alt="ZJSU logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Zhejiang Gongshang University (ZJSU)</strong></p>
-                <p class="exp-detail">B.Eng. in Computer Science and Technology (2017 - 2021)</p>
-                <p class="exp-detail">M.Eng. in Information and Communication Engineering (2021 - 2024)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <h2>🔍 Topic of Interest</h2>
+        <ol>
+          <li>Data management</li>
+          <li>Graph neural networks and their interpretability</li>
+          <li>Artificial intelligence for networking</li>
+        </ol>
+      </section>
 
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">GEEK-Explainer: An Efficient Interpretation Method for Graph Neural Networks in SDN</div>
-                    <div class="author"><strong>Shiyuan Liu</strong>, Chuanhuang Li, Chao Chen, Bo Ma, Zebin Chen, Xiaoyang Wang, Ying Zhang</div>
-                    <div class="periodical"><em><strong>IEEE Transactions on Cognitive Communications and Networking (TCCN)</strong>, 2026</em></div>
-                    <div class="links">
-                      <a href="https://doi.org/10.1109/TCCN.2025.3586942" target="_blank">Paper</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">An Efficient Ray-Tracing Framework for Urban Scenarios Powered by Heterogeneous Graph Neural Networks</div>
-                    <div class="author"><strong>Shiyuan Liu</strong>, Yujie Feng, Songjiang Yang, Bo Ma, Chuanhuang Li</div>
-                    <div class="periodical"><em><strong>IEEE Antennas and Wireless Propagation Letters (AWPL)</strong>, 2025</em></div>
-                    <div class="links">
-                      <a href="https://doi.org/10.1109/LAWP.2025.3576376" target="_blank">Paper</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </section>
+      <section id="publications">
+        <h2>📄 Publications</h2>
+        <ol>
+          <li>
+            GEEK-Explainer: An Efficient Interpretation Method for Graph Neural Networks in SDN.<br>
+            <strong>Shiyuan Liu</strong>, Chuanhuang Li, Chao Chen, Bo Ma, Zebin Chen, Xiaoyang Wang, Ying Zhang.<br>
+            <span class="pub-venue">IEEE Transactions on Cognitive Communications and Networking (TCCN)</span>, 2026.
+            [<a href="https://doi.org/10.1109/TCCN.2025.3586942" target="_blank" rel="noopener">Paper</a>]
+          </li>
+          <li>
+            An Efficient Ray-Tracing Framework for Urban Scenarios Powered by Heterogeneous Graph Neural Networks.<br>
+            <strong>Shiyuan Liu</strong>, Yujie Feng, Songjiang Yang, Bo Ma, Chuanhuang Li.<br>
+            <span class="pub-venue">IEEE Antennas and Wireless Propagation Letters (AWPL)</span>, 2025.
+            [<a href="https://doi.org/10.1109/LAWP.2025.3576376" target="_blank" rel="noopener">Paper</a>]
+          </li>
+        </ol>
+      </section>
 
-    <footer class="site-footer">
-      <p>
-        &copy; 2026 Shiyuan Liu. All rights reserved.
-      </p>
-    </footer>
+      <section id="education">
+        <h2>📖 Education</h2>
+        <ul>
+          <li>
+            <strong>Ph.D. in Computer Science</strong>, University of Technology Sydney (UTS).
+            <span class="edu-period">2024 - Present</span>
+          </li>
+          <li>
+            <strong>M.Eng. in Information and Communication Engineering</strong>, Zhejiang Gongshang University (ZJSU).
+            <span class="edu-period">2021 - 2024</span>
+          </li>
+          <li>
+            <strong>B.Eng. in Computer Science and Technology</strong>, Zhejiang Gongshang University (ZJSU).
+            <span class="edu-period">2017 - 2021</span>
+          </li>
+        </ul>
+      </section>
+    </main>
   </div>
 
-  <script src="assets/js/scale.fix.js"></script>
-  <script>
-    (function() {
-      const themeToggle = document.getElementById('themeToggle');
-      const icon = themeToggle.querySelector('i');
-
-      function setTheme(isDark) {
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        icon.classList.toggle('fa-sun', isDark);
-        icon.classList.toggle('fa-moon', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
-      }
-
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
-
-      themeToggle.addEventListener('click', function() {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        setTheme(!isDark);
-      });
-
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
-      }
-    })();
-  </script>
+  <footer class="site-footer">
+    <p>&copy; 2026 Shiyuan Liu. All rights reserved.</p>
+  </footer>
 </body>
 </html>

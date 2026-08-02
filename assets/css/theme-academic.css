@@ -1,0 +1,252 @@
+/* ============================================
+   Academic Pages style theme
+   Modeled after the academicpages Jekyll
+   template (Minimal Mistakes fork)
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* , *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --ap-bg: #ffffff;
+  --ap-text: #494e52;
+  --ap-heading: #333333;
+  --ap-link: #2f7d95;
+  --ap-link-hover: #1f5361;
+  --ap-border: #f2f3f3;
+  --ap-muted: #7a8288;
+  --ap-masthead-link: #494e52;
+}
+
+body {
+  margin: 0;
+  background: var(--ap-bg);
+  color: var(--ap-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Helvetica, Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--ap-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--ap-link-hover);
+  text-decoration: underline;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--ap-border);
+  background: var(--ap-bg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.masthead-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 3.5em;
+}
+
+.masthead-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: var(--ap-masthead-link);
+}
+
+.masthead-title:hover {
+  text-decoration: none;
+  color: var(--ap-link);
+}
+
+.masthead-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+}
+
+.masthead-nav a {
+  color: var(--ap-masthead-link);
+  font-size: 0.95em;
+  padding: 0.85em 0;
+}
+
+.masthead-nav a:hover {
+  color: var(--ap-link);
+  text-decoration: none;
+  border-bottom: 3px solid var(--ap-border);
+}
+
+/* ---------- Layout ---------- */
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 1em;
+  display: flex;
+  gap: 2.5em;
+  align-items: flex-start;
+}
+
+/* ---------- Author sidebar ---------- */
+
+.author-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  font-size: 0.9em;
+}
+
+.author-avatar {
+  display: block;
+  width: 175px;
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0.75em;
+}
+
+.author-name {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--ap-heading);
+  margin: 0 0 0.15em;
+}
+
+.author-bio {
+  color: var(--ap-muted);
+  margin: 0 0 1em;
+}
+
+.author-links {
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+.author-links li {
+  margin-bottom: 0.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.author-links i {
+  width: 1.25em;
+  text-align: center;
+  margin-right: 0.35em;
+  color: var(--ap-muted);
+}
+
+.visitor-map-title {
+  font-weight: 700;
+  color: var(--ap-heading);
+  margin-bottom: 0.5em;
+}
+
+/* ---------- Main content ---------- */
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.main-content h1 {
+  font-size: 1.6em;
+  color: var(--ap-heading);
+  margin: 0 0 0.75em;
+}
+
+.main-content h2 {
+  font-size: 1.3em;
+  color: var(--ap-heading);
+  border-bottom: 1px solid var(--ap-border);
+  padding-bottom: 0.4em;
+  margin: 1.75em 0 0.75em;
+}
+
+.main-content h2:first-child {
+  margin-top: 0;
+}
+
+.main-content p {
+  margin: 0 0 1em;
+}
+
+.main-content ol,
+.main-content ul {
+  margin: 0 0 1em;
+  padding-left: 1.5em;
+}
+
+.main-content li {
+  margin-bottom: 0.75em;
+}
+
+.pub-note {
+  color: var(--ap-muted);
+  font-size: 0.9em;
+}
+
+.pub-venue {
+  font-weight: 700;
+}
+
+.edu-period {
+  color: var(--ap-muted);
+  font-style: italic;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em 1em;
+  border-top: 1px solid var(--ap-border);
+  color: var(--ap-muted);
+  font-size: 0.85em;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    flex-direction: column;
+  }
+
+  .author-sidebar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 1.5em;
+  }
+
+  .author-avatar {
+    width: 110px;
+  }
+
+  .author-links {
+    margin-bottom: 0;
+  }
+
+  .visitor-map {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
